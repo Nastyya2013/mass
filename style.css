@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           background-color: #ffffff;
+       }
+       header {
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           background-color: white;
+           padding: 10px 50px;
+           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+       }
+       .logo {
+           display: flex;
+           align-items: center;
+       }
+       .logo img {
+           width: 100px;
+           height: 100px;
+           margin-right: 100px;
+       }
+       .logo h1 {
+           font-size: 25px;
+           color: #36ab07;
+           font-weight: bold;
+           margin: 0;
+       }
+       nav {
+           display: flex;
+           gap: 30px;
+       }
+       nav a {
+           text-decoration: none;
+           color: green;
+           font-size: 25px;
+           font-family: 'Courier New', Courier, monospace;
+       }
+       nav a:hover {
+           text-decoration: underline;
+       }
+.imt {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+.imt label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.imt input[type="number"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+
+.imt .btn {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #66833C;
+    border: none;
+    border-radius: 9px;
+    margin-top: 10px;
+}
+
+
+.imt .result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #66833C;
+    border: none;
+    border-radius: 9px;
+}
+
+footer {
+    text-align: center;
+    background-color: #D9D9D9;
+    padding: 5px;
+}
+.ff{
+ display: inline-block;
+ vertical-align: middle;
+ width: 30px;
+ height: 30px;
+ margin: 0.5px;
+}
+.ii{
+display: inline-block;
+vertical-align: middle;
+width: 30px;
+height: 30px;
+margin: 0.5px;
+}
